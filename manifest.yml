@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: grut-test01
+  host: grut-test01
+  disk_quota: 1024M
+  services:
+  - grut-test01-cloudantNoSQLDB
